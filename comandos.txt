@@ -1,0 +1,14 @@
+git init   --- Por proyecto.
+git add .
+------------- La primera vez
+-------------> git config --global user.name "prueba"
+-------------> git config --global user.email prueba@ejemplo.com
+-------------> git config --list
+git commit -m "Comentario"
+git remote add origin https://github.com/cdgalvis/aa.git
+git push origin Rama
+
+git branch  ------- ver ramas
+git branch NomRama  ------- Crear rama
+git checkout Rama ------ Pasar de rama
+git branch -d qa ------ Eliminar rama
